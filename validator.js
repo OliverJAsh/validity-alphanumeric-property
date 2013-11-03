@@ -13,6 +13,6 @@ function wrap(makePromise) {
     var cb = arguments[arguments.length - 1];
     var args = Array.prototype.slice.call(arguments, 0, -1);
     var promise = makePromise.apply(null, args);
-    Q.when(promise).then(cb.bind(null, null), cb.bind(null));
+    Q.when(promise).nodeify(cb);
   };
 }
