@@ -1,6 +1,6 @@
 {
   "name": "validity-alphanumeric-property",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Validity style validator to ensure a property is alphanumeric",
   "main": "validator.js",
   "directories": {
