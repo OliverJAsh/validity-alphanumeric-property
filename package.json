@@ -1,0 +1,36 @@
+{
+  "name": "validity-alphanumeric-property",
+  "version": "0.0.1",
+  "description": "Validity style validator to ensure a property is alphanumeric",
+  "main": "validator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OliverJAsh/validity-alphanumeric-property"
+  },
+  "keywords": [
+    "validity",
+    "validation",
+    "alphanumeric"
+  ],
+  "author": "Oliver Joseph Ash",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/OliverJAsh/validity-alphanumeric-property"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "istanbul": "~0.1.44",
+    "mocha-as-promised": "~1.4.1",
+    "chai-as-promised": "~4.1.0",
+    "chai": "~1.8.1"
+  },
+  "dependencies": {
+    "q": "~0.9.7"
+  }
+}
